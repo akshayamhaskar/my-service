@@ -13,7 +13,8 @@ namespace my_service
         /// </summary>
         static void Main()
         {
-
+            int abc;
+            abc = 1;
 
 #if DEBUG
             Service1 myservice = new Service1();
