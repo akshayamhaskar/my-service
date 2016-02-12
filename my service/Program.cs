@@ -13,8 +13,9 @@ namespace my_service
         /// </summary>
         static void Main()
         {
-           
 
+            string abc;
+        
 #if DEBUG
             Service1 myservice = new Service1();
             myservice.ondebug();
